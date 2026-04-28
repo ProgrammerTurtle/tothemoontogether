@@ -1,2 +1,3 @@
-# CameraModule
-Self contained 3" high power rocket camera module. 
+# The Rebel Path
+
+High power and high performance head end for a 3" amateur rocket. 
