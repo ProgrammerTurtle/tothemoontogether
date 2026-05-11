@@ -1,4 +1,58 @@
 
+# 5/11/2026 8am - Routed the entire geiger PCB. 
+
+_Time spent: 4h_
+
+This PCB was actually pretty simple! So, I was able to route the entire pcb in one sitting.
+
+<img width="1590" height="758" alt="image" src="https://github.com/user-attachments/assets/58c25c07-af90-4fd3-9b1e-1348fbd96d65" />
+
+I started with getting everything nice and organized. 400v generator on the left, mcu and CANFD in the center, geiger on the right. Really nothing in the back but that's ok, I will need to route back there. 
+First thing I did was CANFD. The connectors get their decoupling capacitors and termination resistor jumper (which will be in place), and the transceiver also gets decoupling caps and some vias. 
+
+<img width="1255" height="580" alt="image" src="https://github.com/user-attachments/assets/c0e96025-045e-402c-82b2-5cb1b907ce8b" />
+
+<img width="880" height="727" alt="image" src="https://github.com/user-attachments/assets/b49eb7e6-e038-415e-90d0-47321df33225" />
+
+From there I moved to the right a smidge to give the mcu its decoupling caps and crystal.
+
+<img width="957" height="796" alt="image" src="https://github.com/user-attachments/assets/717c56fa-fa59-4c01-9657-e6583c8753ed" />
+
+All power inputs get decoupling caps. Non negotiable.
+
+
+<img width="473" height="811" alt="image" src="https://github.com/user-attachments/assets/cfd06ce2-82fc-4dc6-b72a-6b4f395a23ed" />
+
+Then I did the 400v circuit!! This is a little long in terms of taken up space but that's just because of the robust components required for high voltage. This is that inductor flyback boost. It doesn't matter how much I shield it and whatnot since I have a big aluminum shield between it and the rest of the module in the form of the battery holder.
+
+<img width="530" height="615" alt="image" src="https://github.com/user-attachments/assets/b9e239c4-b5f5-42f1-a528-d2cd9e33f3f3" />
+
+Then I did the geiger circuit itself, which is fairly straightforward. Decoupling and a comparator, a few resistors for power management. That's it. 
+
+Last is just connecting everything to the MCU and connecting 400v to the geiger. 
+
+<img width="927" height="416" alt="image" src="https://github.com/user-attachments/assets/308eed9f-45d6-4928-8c2e-614c90cf166a" />
+
+<img width="925" height="506" alt="image" src="https://github.com/user-attachments/assets/fcfc8856-db1d-4cbe-93a6-5f4d7a6a6b1c" />
+
+<img width="1131" height="883" alt="image" src="https://github.com/user-attachments/assets/7830376d-1a74-4896-addc-5286568cdfb6" />
+
+<img width="1131" height="883" alt="image" src="https://github.com/user-attachments/assets/6258e3a3-1bfa-45f1-840d-08a5383f6428" />
+
+Of course, I have to add my ground pours, logo, and thermal vias for the mcu. 
+
+<img width="1038" height="907" alt="image" src="https://github.com/user-attachments/assets/2308e975-79bb-4363-baf6-1b063b2bb5ad" />
+
+With that we have a finished geiger counter! 
+
+<img width="1403" height="1034" alt="image" src="https://github.com/user-attachments/assets/4ec4009b-8387-42d1-874d-c54443c7588d" />
+
+Doing multi mcu was totally the right choice. It makes wiring these pcbs individually so much simpler and the flex cables so much smaller.
+
+That's it for real pcb design!! I have to do custom flex cables but those barely count.
+
+Do I still hate pcb design? Yeah. Is it a useful skill to have and do I love these specific boards? Also yeah!!!! 
+
 # 5/11/2026 12 AM - Made a "Device" (footprint + symbol), finished schematic.
 
 _Time spent: 1.75h_
