@@ -1,4 +1,44 @@
-# 5/13/2026 6pm - Redid the Sensor board
+# 5/13/2026 1pm - CAD Entry!
+_Time spent: 4h_
+
+I took a break from pcbs to do some CAD!! I did two things: Assemble the full instrumentation stack and redo the nosecone AV bay bulkhead.
+
+Instrumentation stack: 
+The instrumentation stack is comprised of a stack of PCBs, aluminum machined parts, and nonconductive 3D printed spacers. The aluminum acts as shielding, heatsink, or robust structure mounting, while the nonconductive 3D printed parts prevent shorting of the PCBs. And of course, the PCBs do all the cool stuff! Vertically it goes: Camera module, mcu pcb, sensor module, geiger module. This is because the camera module is standalone, so it gets to be an end cap, and the geiger generates high voltage so it needs to be shielded from the other boards by the aluminum mounting. Batteries are also stored in that aluminum. That looks like this:
+
+<img width="885" height="1822" alt="image" src="https://github.com/user-attachments/assets/3ce2a0fb-9553-4bac-8cb9-850a69ab263d" />
+
+Pretty cool! 
+
+<img width="683" height="620" alt="image" src="https://github.com/user-attachments/assets/ee355ffb-6840-4e88-8455-71d33c2d7da0" />
+
+All the non conductive spacers are white, and are hollowed out like this to allow for space for the components. This was done with a simple offset sketch, extrude, and fillets. 
+
+<img width="970" height="672" alt="image" src="https://github.com/user-attachments/assets/08634f1f-5e73-4501-b215-baf1b66b7130" />
+
+<img width="990" height="657" alt="image" src="https://github.com/user-attachments/assets/b6210999-de86-4543-af0d-4759f333dcfa" />
+
+Looks pretty cool!
+
+The whole stack totals 116mm PCB top to bottom. Nice round number. It will be held together by 4x 2-56 threaded rods, with nuts on the end to compress the entire stack together for rigidity.
+
+The AV bulkhead:
+
+This was a challenge. I need cable passthrough of the bulkhead, so I cannot have it be a threaded joint as that would twist up all the wires. I need a connection between the payload and nose! 
+So, I came up with this. 
+
+<img width="1298" height="1035" alt="image" src="https://github.com/user-attachments/assets/982915c8-de0e-4e2f-ad50-b623f2859fa1" />
+
+<img width="1301" height="1017" alt="image" src="https://github.com/user-attachments/assets/ec1fceec-1c89-4e19-be78-746be62037ff" />
+
+<img width="1224" height="1018" alt="image" src="https://github.com/user-attachments/assets/14224946-54a0-4486-aede-92d0613b01d2" />
+
+Overcomplicated, I know. Essentially, there are 8 ribs/tabs on the nose cone RADAX section with 8 matching sections on the bulkhead. This allows the bulkhead to be inserted, twisted, and then bolted with 8x 3-48 bolts. This means the bolts are not seeing recovery forces, the aluminum tabs are, which are way stronger! Hopefully this works. It is pretty overly complex but it looks cool and should not be too hard for JLC to machine. If I was machining this myself I would just remove the thinner flange part and it would be way easier - not that it would be super difficult in the first place. To quote my conversation with my propellant friend, "simply get freaky with a fly cutter". It's a pretty cool assembly!
+
+That's the end of my cad break for now. Ugh. Back to PCB purgatory. 
+
+
+# 5/13/2026 8am - Redid the Sensor board
 _Time spent: 3.5h_
 
 I redid the sensor board this time! It honestly did not go that badly. 
@@ -37,7 +77,7 @@ Wow! The bottom is so empty! This makes my job way easier and saves me a ton of 
 
 Next is the last pcb, the Geiger. 
 
-# 5/13/2026 10am - Rerouted the MCU board
+# 5/12/2026 8am - Rerouted the MCU board
 _Time spent: 4.25h_
 
 So, I may have told mr bob from easyeda that I would be submitting by the end of Thursday or Friday. This means I need to lock in!
@@ -78,7 +118,7 @@ Big busy top allows for...
 Super empty bottom! Awesome! This means I can do economic single sided PCBA and save a ton of money. Especially since most of it is standard/basic now, not extended.
 Next is the sensor board!
 
-# 5/12/2026 6pm - We too expensive, abort abort fall back
+# 5/12/2026 12pm - We too expensive, abort abort fall back
 _Time spent: 3.5h_
 
 Okay so I finally got in contact with the oshwlabs people and they said they would not cover more than $500. Ok! Seems like no problem. 
