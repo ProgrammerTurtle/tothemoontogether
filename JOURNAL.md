@@ -1,3 +1,11 @@
+# 5/13/2026 10am - Rerouted the MCU board
+_Time spent: 4.25h_
+
+So, I may have told mr bob from easyeda that I would be submitting by the end of Thursday or Friday. This means I need to lock in!
+The MCU board was really annoying. I am stuck on 6 layer for this board due to CAN-FD stuff and I think that will unfortunately apply to all boards moving forward.
+6 layer isn't the main cost though, extended components and double sided pcba is. So, lets try and fix that.
+Most of the work was in the schematic. 
+
 # 5/12/2026 6pm - We too expensive, abort abort fall back
 _Time spent: 3.5h_
 
