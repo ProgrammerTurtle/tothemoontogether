@@ -4,7 +4,40 @@ _Time spent: 4.25h_
 So, I may have told mr bob from easyeda that I would be submitting by the end of Thursday or Friday. This means I need to lock in!
 The MCU board was really annoying. I am stuck on 6 layer for this board due to CAN-FD stuff and I think that will unfortunately apply to all boards moving forward.
 6 layer isn't the main cost though, extended components and double sided pcba is. So, lets try and fix that.
-Most of the work was in the schematic. 
+A lot of the work was in the schematic. 
+
+<img width="1137" height="813" alt="image" src="https://github.com/user-attachments/assets/d7ae0d41-e6c1-4d31-9dfd-d4a43882a994" />
+
+So, this is the updated schematic. Once again, it looks the same. Ugh. But, I went through every single capacitor,resistor, inductor, etc, and if there was a basic version, I switched to it.
+Then I moved to the pcb. Every passive that I replaced needed rerouted - and I replaced all of them. This time they needed to be on the top of the board though. 
+
+<img width="840" height="955" alt="image" src="https://github.com/user-attachments/assets/651f7f6f-504b-4e6f-b064-aefc095a2904" />
+
+These are all the passives I had to reroute to be on the top of the board. It is quite literally all of them.
+As always, I started with sorting them out by device, and then started placing on the board.
+
+<img width="637" height="643" alt="image" src="https://github.com/user-attachments/assets/aeffbbc4-3b37-41d3-a1b9-5dd96063b1ba" />
+
+<img width="1036" height="1056" alt="image" src="https://github.com/user-attachments/assets/bf545bed-1939-4464-8121-649ad401f2db" />
+
+This is some of the stuff I had to do. Another rainbow! I did get everything onto the top of the board though. 
+
+<img width="1241" height="916" alt="image" src="https://github.com/user-attachments/assets/d25ab9dc-c90a-4674-891e-f1821e994399" />
+
+This is what I managed to pull off! Everything but the 3 battery connectors are on the top side - I call that a win! 
+
+<img width="1180" height="923" alt="image" src="https://github.com/user-attachments/assets/cc5cbfc9-4855-4124-8ac4-a864a4778bd4" />
+
+Of course, both top and bottom get ground pours again to minimize EMI. Then, I am done! 
+
+<img width="1507" height="1191" alt="image" src="https://github.com/user-attachments/assets/031d0040-49c7-4207-9a24-9e4a819ef7e0" />
+
+Big busy top allows for...
+
+<img width="1669" height="1073" alt="image" src="https://github.com/user-attachments/assets/f1bb210c-d28b-4985-8545-fee091a370f1" />
+
+Super empty bottom! Awesome! This means I can do economic single sided PCBA and save a ton of money. Especially since most of it is standard/basic now, not extended.
+Next is the sensor board!
 
 # 5/12/2026 6pm - We too expensive, abort abort fall back
 _Time spent: 3.5h_
