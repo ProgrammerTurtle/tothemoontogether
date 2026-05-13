@@ -1,3 +1,51 @@
+# 5/12/2026 6pm - We too expensive, abort abort fall back
+_Time spent: 3.5h_
+
+Okay so I finally got in contact with the oshwlabs people and they said they would not cover more than $500. Ok! Seems like no problem. 
+
+<img width="387" height="501" alt="image" src="https://github.com/user-attachments/assets/ca25938c-20b0-42b0-9df3-db27014deece" />
+
+## YOUCH. 
+
+Turns out double sided standard pcba on 6 layer via in pad with mostly extended components is stupidly expensive. I didn't bother with optimizing because I didn't think it would be that bad but man is it that bad. So, we gotta make some changes.
+A. I must use single sided economic PCBA. This means optimizing for the second side to be things I am comfortable assembling and having the majority of componenets on one side.
+B. Make whatever boards I can 4 layer instead of 6. Some of them can totally be 4 layer.
+C. Use mostly basic components, not extended. That means using the JLC parts search for every single component. 
+D. Git gud. Not really but I just gotta budget cut wherever possible. No fancy colors, no fancy silkscreen, look into paneling, etc. 
+
+So, I started with revamping the camera pcb. 
+
+<img width="1773" height="1249" alt="image" src="https://github.com/user-attachments/assets/d65c9144-bdeb-47b1-bc0b-657f2f752d0f" />
+
+This is the revamped schematic. Notice how it looks exactly the same, but with different part names? Yeah. I went through every single component and if it had a basic option listed on https://jlcpcb.com/parts/in-stock-parts then I would use it. Every. Single. Component. This took two hours. 
+Even my original 10k resistors were extended! 10k resistors! Are you kidding??
+
+Anywho, from there I had to fix my pcb to use those and have almost everything on one side. Almost every part I changed was just a capacitor or something so it was kinda easy to resolve, just tedious. 
+And I tried to get everything on one side. I actually succeeded! The only things not on the bottom side are the battery connectors and 4 capacitors. That's it. 
+
+<img width="1167" height="1047" alt="image" src="https://github.com/user-attachments/assets/491d0de8-b47d-429e-8f5f-fa86b0c5ed72" />
+
+It does mean I did stuff like this though...
+
+<img width="667" height="796" alt="image" src="https://github.com/user-attachments/assets/0a679bb5-8a49-4e30-beb7-97b3e141d319" />
+
+All in the name of one side. I also managed to get it done to 4 layer? It was throwing a fit about my plane zone not being empty so I couldn't delete it, despite it being... a plane zone... which is empty by default... I ended up figuring it out though. 
+
+<img width="914" height="942" alt="image" src="https://github.com/user-attachments/assets/201f1418-d8f7-458d-b6dc-aadb2e472198" />
+
+Tadaaa. Everything on one side (almost everything) of a 4 layer pcb for the camera pcb. 
+
+<img width="1357" height="1068" alt="image" src="https://github.com/user-attachments/assets/1a6a8799-aabb-4990-aa19-43a56f08a603" />
+
+Can I tell what is going on? No. Can you? No. Will it work? I think so, it matches my schematic. But more importantly it should be way cheaper. 
+
+<img width="1351" height="1115" alt="image" src="https://github.com/user-attachments/assets/e59b2507-db5f-464a-ae31-745f0940ccb0" />
+
+Look how there is almost nothing on that side! Gorgeous. 
+
+<img width="1055" height="946" alt="image" src="https://github.com/user-attachments/assets/259c4431-2c52-4c45-8a35-21ca91edbc51" />
+
+We do not talk about this side. That is all for this entry. 1/4 pcbs fixed. Next entry might actually be a cad entry because I am so sick of pcbs. Maybe. We will see ! Ta ta. 
 
 # 5/11/2026 8am - Routed the entire geiger PCB. 
 
