@@ -1,3 +1,42 @@
+# 5/13/2026 6pm - Redid the Sensor board
+_Time spent: 3.5h_
+
+I redid the sensor board this time! It honestly did not go that badly. 
+I started with redoing the schematic like the others. As it looks the same as before, I do not have photos. But, every passive got replaced.
+
+<img width="1470" height="1169" alt="image" src="https://github.com/user-attachments/assets/d02e72a5-58e2-47a3-aff6-bbdabc8f46b8" />
+
+You can see that here, post-reorganizing. Every passive is with their respective... active? I'm not sure the terminology here, but their component. There is a lot to reroute. 
+
+I started with completely redoing my charge circuit. Hopefully this is a bit cleaner handling of the fragile signal. 
+
+<img width="894" height="913" alt="image" src="https://github.com/user-attachments/assets/2d1157db-ba3c-43a4-8fb4-371b456a10bc" />
+
+See how it's more linear with shorter traces? That's good, I think. The big shape is a keepout area for planes and solder mask, as those introduce EMI. There is at least a few MM of space on all sides of the fragile charge. 
+
+From there was just like... the rest of it? This board stayed 6 layer again because there just wasn't a way I could reroute the CAN-FD without using internal layers. And since on a 4 layer the two layers are for gnd and 3v3 planes... I am doomed to 6 layer. But that's ok! I think it's discounted right now. 
+
+<img width="1202" height="916" alt="image" src="https://github.com/user-attachments/assets/f4a7e4c3-ba33-4b1f-af3f-cb2d5dcc2e4d" />
+
+<img width="1307" height="970" alt="image" src="https://github.com/user-attachments/assets/9b00c401-bdc1-420e-802f-247b54b8faa2" />
+
+The bottom layer is super super empty this time! All I have to solder is the coax connector - I can do that! 
+
+<img width="1239" height="962" alt="image" src="https://github.com/user-attachments/assets/b4f46623-0283-4e44-adfc-9ad1bd7893e2" />
+
+Ground pours for EMI of course, which is especially important with the fragile signals. 
+
+<img width="1050" height="789" alt="image" src="https://github.com/user-attachments/assets/e4321111-2531-4af2-a442-e215c5a4dce2" />
+
+Top side is super super busy, of course with the big obnoxious 200 megaohm resistor. I was told I could use multiple smaller resistors to get basic assembly, but the biggest basic resistor is small enough that I can't actually fit enough of them onto the board. High voltage does funny things to you.
+
+But that means...
+<img width="1152" height="846" alt="image" src="https://github.com/user-attachments/assets/f4f72c9d-d864-4cbb-95af-9b95f1afde41" />
+
+Wow! The bottom is so empty! This makes my job way easier and saves me a ton of money. Yippee. 
+
+Next is the last pcb, the Geiger. 
+
 # 5/13/2026 10am - Rerouted the MCU board
 _Time spent: 4.25h_
 
