@@ -1,3 +1,61 @@
+# 5/13/2026 8pm - Finish fixing PCBS, new pcb total.
+_Time spent: 4h_
+
+Yes, I do have 3 entries today. I did not get much school work or sleep done. Yippee. 
+
+<img width="2262" height="1610" alt="image" src="https://github.com/user-attachments/assets/0cebfcb1-8ec9-44b9-99b3-ed58c4fe8ea6" />
+
+The last pcb to fix was geiger. This one was really not much work - its a simple board. 
+Once again spent a while checking every component for a basic alternative. Turns out nothing rated past 200v is basic availability. Lame. 
+
+<img width="1598" height="740" alt="image" src="https://github.com/user-attachments/assets/d450db81-49ab-488f-83c8-2866e7eb8f0f" />
+
+So, all that changed was the simple passives, and of course getting everything on the top side. 
+
+<img width="1474" height="1358" alt="image" src="https://github.com/user-attachments/assets/8ec9a55b-3ca5-40a6-bc6d-82737ea0a5a0" />
+
+Which I pulled off! Like, everything everything. I am pretty proud. 
+
+<img width="1482" height="1216" alt="image" src="https://github.com/user-attachments/assets/0ba8e53c-9cce-406c-8070-8ad7bb950fec" />
+
+<img width="1574" height="1206" alt="image" src="https://github.com/user-attachments/assets/c7dbffa0-ff59-4fee-b131-3ae57790ca23" />
+
+
+Now, for the hard parts.
+
+I added everything into the cart and it still totaled $700. WTF?? Turns out...
+
+<img width="1443" height="75" alt="image" src="https://github.com/user-attachments/assets/7f32f488-a863-4e0c-a10e-f89125262fbe" />
+
+I selected the wrong flash chip for my MCU board. This one is two hundred dollars. Man. I need the 128mb, not 1G. Easy fix though, and no rerouting.
+
+However, some changes were a bit sadder. The ADXL275 and TMP117 were both $10-$15 each and required standard PCBA. This led to me nerfing the sensor board a bit by removing those so I can have economic pcba. I also have to solder the LSM6 accelerometer myself due to that also being standard only. Soooo.. this will be fun! But it saves hundreds of dollars lol. 
+
+<img width="1771" height="1255" alt="image" src="https://github.com/user-attachments/assets/af3b2d2b-356b-4694-8371-3ae8f0daf14f" />
+
+See, tmp117 and adxl275 missing. It was good while it lasted. 
+
+<img width="1209" height="1095" alt="image" src="https://github.com/user-attachments/assets/64a6b43e-6627-413d-bddc-31b8c12000f2" />
+
+But the total is literally like 60% less now! Thats within the budget posed by oshwlabs. Score.
+
+I do need to account for MCUs though. I need to preorder those and it will add like $10 I think? Which is still fine.
+Missing the tmp117 and adxl are honestly no big issue. I can get accelerometer data from the flight controllers and temp data from like 3 of the other sensors, so I have both functions covered. It's just never a bad thing to have too much data - but it is bad to cost too much. So we fixed that. 
+With that, my pcbs are like, done? I would like to tally up what is left - spoiler, it's all cad and logistics.
+I need to:
+Finish chute cannon assembly
+Finish fin can
+Make conical coupler for head end
+Make motor case
+Make AV bay
+Throw it into one big beautiful cad model! 
+
+Honestly, I can pull this off within a few days, I just have to make a portfolio for my whole school year first. That's chill though. 
+
+I used to have parachutes on that list - now I don't! I am commissioning custom ultra compact chutes from a friend - for no additional cost over the original pitch - and I am so, so excited. They are going to be colors I chose and pack so nicely. I cannot wait. 
+
+That's all for today folks. Get ready for so much cad. SO MUCH CAD. Yay!! 
+
 # 5/13/2026 1pm - CAD Entry!
 _Time spent: 4h_
 
