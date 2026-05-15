@@ -1,3 +1,39 @@
+# 5/14/2026 4pm - One More PCB Entry
+_Time Spent: 5.5h_
+
+Howdy howdy. I was told that I can save money by paneling the boards. This means combining the three boards that don't have specific stack ups into one like single "board". The camera board needs to stay independent because it has a specific stack up for radio stuff.
+So I was initially like OK I'll just stick them all side-by-side. Turns out that doesn't work and you need these like panel tab things.
+
+insert image 
+This was my first attempt. It ended up like filling in the gaps between some of the boards because I didn't config it properly.
+So I try again.
+
+insert image 
+I actually managed to make it even worse. So I thought I would need to add mouse bites around the whole board. That won't work though, because it will just ruin the outer dimension which is crucial to it, sliding into a part.
+
+So I talk to a friend who has done this before and they told me I should create a sketch in Fusion that highlights a proper panel outline and add slots instead of board edge for the board themselves with tabs.
+
+insert image 
+This is the example they showed me. 
+
+insert image 
+Initially I made this big mess of board outlines that you see here. This wasn't working because that should've been something I realized sooner but outlines need to be continuous otherwise weird stuff happens.
+
+insert image
+So I made this
+
+And it did this.
+
+Still no. 
+turns out you need margins on top of the boards so that the slot is not touching the rails otherwise, it'll just fill in the slot.
+
+insert image
+
+So I did that. And it worked! I finally have a working panel board that will save me about 100 bucks which I can put towards CNC parts. Yay.
+I went through so many iterations of this panel. I tried just outlines. I tried just slots. I tried adding tabs manually in EasyEDA. I tried manual mouse bites around the full thing. I tried all this stuff and eventually it worked, but it took hours. Was it really worth only 100 bucks? I mean, I hope so.
+
+just to recap, what ended up working? Well I made a sketch of my outline and slots and overall alignment in fusion 360 to start. Easy EDA is surprisingly incompetent at this. I then import that as a DXF into Easy EDA and align my boards. I then annotate all the designators on every component to be unique, align the slots, add margin... and order!
+
 # 5/13/2026 8pm - Finish fixing PCBS, new pcb total.
 _Time spent: 4h_
 
