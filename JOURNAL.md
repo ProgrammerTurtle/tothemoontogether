@@ -1,38 +1,53 @@
-# 5/14/2026 4pm - One More PCB Entry
+<img width="1666" height="1036" alt="image" src="https://github.com/user-attachments/assets/ceba9d2d-96c8-46be-92ce-7fcf93d93594" /># 5/14/2026 4pm - One More PCB Entry
 _Time Spent: 5.5h_
 
 Howdy howdy. I was told that I can save money by paneling the boards. This means combining the three boards that don't have specific stack ups into one like single "board". The camera board needs to stay independent because it has a specific stack up for radio stuff.
 So I was initially like OK I'll just stick them all side-by-side. Turns out that doesn't work and you need these like panel tab things.
 
-insert image 
+<img width="1528" height="661" alt="image" src="https://github.com/user-attachments/assets/c7a575b6-015f-4571-b3c5-2c135fc40028" />
+
+<img width="2092" height="837" alt="image" src="https://github.com/user-attachments/assets/d3ebfded-7ab9-4f7c-ba4d-b882e10be253" />
+
 This was my first attempt. It ended up like filling in the gaps between some of the boards because I didn't config it properly.
 So I try again.
 
-insert image 
+<img width="2141" height="873" alt="image" src="https://github.com/user-attachments/assets/d2f8835a-9479-43eb-9726-b9d0f80c89d7" />
+
 I actually managed to make it even worse. So I thought I would need to add mouse bites around the whole board. That won't work though, because it will just ruin the outer dimension which is crucial to it, sliding into a part.
 
 So I talk to a friend who has done this before and they told me I should create a sketch in Fusion that highlights a proper panel outline and add slots instead of board edge for the board themselves with tabs.
 
-insert image 
+<img width="600" height="337" alt="image" src="https://github.com/user-attachments/assets/68b05363-e098-4a97-85f5-8b4157f12914" />
+
 This is the example they showed me. 
 
-insert image 
-Initially I made this big mess of board outlines that you see here. This wasn't working because that should've been something I realized sooner but outlines need to be continuous otherwise weird stuff happens.
+<img width="1472" height="697" alt="image" src="https://github.com/user-attachments/assets/f0491204-4f0d-4de4-84b8-05005a439884" />
 
-insert image
+Initially I made this big mess of board outlines that you see here as a sketch in fusion 360. This wasn't working because that should've been something I realized sooner but outlines need to be continuous otherwise weird stuff happens.
+
+<img width="1782" height="655" alt="image" src="https://github.com/user-attachments/assets/8e94b3c9-1e03-4f85-a74c-85101a446d03" />
+
+<img width="1619" height="717" alt="image" src="https://github.com/user-attachments/assets/e3822435-8789-49dd-b578-3d2521aa983b" />
+
 So I made this
+
+<img width="1972" height="807" alt="image" src="https://github.com/user-attachments/assets/7b51750f-6e56-4b0b-91c1-6ede62813135" />
 
 And it did this.
 
 Still no. 
 turns out you need margins on top of the boards so that the slot is not touching the rails otherwise, it'll just fill in the slot.
 
-insert image
+<img width="1673" height="744" alt="image" src="https://github.com/user-attachments/assets/1cf9c958-a0e4-43fe-9219-b45f1ac8c438" />
 
 So I did that. And it worked! I finally have a working panel board that will save me about 100 bucks which I can put towards CNC parts. Yay.
 I went through so many iterations of this panel. I tried just outlines. I tried just slots. I tried adding tabs manually in EasyEDA. I tried manual mouse bites around the full thing. I tried all this stuff and eventually it worked, but it took hours. Was it really worth only 100 bucks? I mean, I hope so.
 
+<img width="1280" height="536" alt="image" src="https://github.com/user-attachments/assets/3f516f17-4f31-43be-b1fd-bf9fbc020cd9" />
+
 just to recap, what ended up working? Well I made a sketch of my outline and slots and overall alignment in fusion 360 to start. Easy EDA is surprisingly incompetent at this. I then import that as a DXF into Easy EDA and align my boards. I then annotate all the designators on every component to be unique, align the slots, add margin... and order!
+
+<img width="1666" height="1036" alt="image" src="https://github.com/user-attachments/assets/799c0909-c835-4cb7-8261-2513604279c5" />
 
 # 5/13/2026 8pm - Finish fixing PCBS, new pcb total.
 _Time spent: 4h_
