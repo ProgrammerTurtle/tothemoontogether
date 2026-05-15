@@ -1,3 +1,104 @@
+# 5/14/2026 11pm - Finally, A Cad Entry - Fins and Full Up Model
+_Time Spent: 6h_
+
+Things are getting exciting y'all. I was finally able to move back to working on cad and I had two clear goals:
+Design coupling to the motor
+Design a fin can/fin attachment method. 
+
+So let's get started. 
+
+<img width="942" height="1095" alt="image" src="https://github.com/user-attachments/assets/59e69ee8-aef3-49a4-a0bf-93c7ce2997e2" />
+
+First thing I did was get motor case CAD from my propellant friend. This is just a starting point with an architecture I know works. 
+
+<img width="1095" height="674" alt="image" src="https://github.com/user-attachments/assets/8a896643-a77d-4964-aac6-cee312073697" />
+
+I started by sketching out the coupler. This was conical, a female version to match the male that is present on my payload/head end module. However, I forgot the attachment!
+
+So. This is going to be yet another RadAx joint, like the one that attaches my nose cone. The lower section of the radax joint will actually be the retaining ring for the upper closure of the rocket motor. This retaining ring will be permenantly pinnned in place via press fit pins for rigidity purposes - there can be zero slop in the coupler. I can simply load the motor from the aft end, which will still be threaded. 
+
+<img width="1429" height="552" alt="image" src="https://github.com/user-attachments/assets/f94dbd20-7812-4b76-86d8-de4f7b81865f" />
+
+The conical section got revolved so I could then make the radax. Honestly, it had been long enough that I kinda forgot how I did this the first time, so this took a really long time. I had a few necessary constraints though. 
+- Minimum 1/8" thickness of all features
+- Ample interface distance, at least 1/8" aswell
+- Be part of the retaining ring
+- Do not extend into the conical coupler at all
+
+With that in mind I got to work on that sketch. this took many revisions and at least an hour but I am not good at taking progress photos. 
+
+<img width="791" height="990" alt="image" src="https://github.com/user-attachments/assets/829e12d4-1c83-4d54-bdff-ea471e4ea1d8" />
+
+The two sections of the radax get revolved and then I add mounting holes. 
+
+<img width="1920" height="857" alt="image" src="https://github.com/user-attachments/assets/5f921e6d-e1d8-4603-8ab7-4c7b2c2489e1" />
+
+<img width="1357" height="881" alt="image" src="https://github.com/user-attachments/assets/8d8aa2ea-c3aa-4e7d-b7b1-f3aeb97a5026" />
+
+After being joined with the retaining ring, it's a pretty cool part. The retaining ring uses 1/4" pins.
+
+<img width="1435" height="889" alt="image" src="https://github.com/user-attachments/assets/a4dd9dfe-d350-4d16-9584-5394ab18dc92" />
+
+
+Fins!
+
+<img width="1143" height="991" alt="image" src="https://github.com/user-attachments/assets/3086e491-5f18-44a2-86ac-9605b24428e7" />
+
+I simply took the fins I made a while ago and added 18mm fillets that interface with the motor case - because the motor case is the rocket body. 
+
+<img width="2137" height="371" alt="image" src="https://github.com/user-attachments/assets/e5c87be9-db78-499d-af33-1966292c6053" />
+
+That gives this pretty cool rocket!
+
+However, it is wrong. The motor case CAD is apparently innacurate. So, we get to make some changes to use the new accurate motor. 
+
+<img width="4000" height="4000" alt="image" src="https://github.com/user-attachments/assets/0d9c2b0d-9c86-406d-8c19-76499dc690de" />
+
+The first step was making a fin can though. This is way simpler than it looks - 2mm thick tube, 1" long taper up front, 18mm fillets. I did cool variable fillets on the tips to get a nice taper. 
+
+<img width="1141" height="1101" alt="image" src="https://github.com/user-attachments/assets/8f4a31a0-2e5f-4447-bdf8-c2465d5c070a" />
+
+My process for making these is pretty straight forward. I create copies of the fins and tube, join them together (first you must press pull the root of the fin so that the root is intersecting the tube), then fillet the root, and subtract the tube and fin body copies. Boom! Fillets that are like 99% accurate to life. The front aluminum taper is just a simple sketch and revolve. 
+
+As for the new motor case, the main change is the solidification of the design details. 1/4" pins, 1/4-20 set screws for the lower closure, and an expansion cone. 
+
+<img width="1929" height="303" alt="image" src="https://github.com/user-attachments/assets/334c9d3e-3644-42aa-bccf-5db64447a90b" />
+
+<img width="1098" height="690" alt="image" src="https://github.com/user-attachments/assets/62312f38-4f0d-43d2-8a49-d662986dcb69" />
+
+<img width="795" height="434" alt="image" src="https://github.com/user-attachments/assets/cc7d6c6e-3f6d-41a4-b39a-6d43ada2f3fe" />
+
+The second photo showcases the nozzle architecture and expansion cone. It goes graphite throat -> phenolic carrier -> aluminum carrier -> aluminum expansion cone. The expansion cone has a lip on the outside for the fin can to sit against. Initially, the fin can was further forward and the lip was not present (well it was, but moved up) like this: 
+
+<img width="1446" height="1003" alt="image" src="https://github.com/user-attachments/assets/bc230bcc-9173-4109-913a-4fbb42bd040f" />
+
+However, we moved it back for two reasons. One, generally the further back your fins the more stable you are as stability is defined by the distance between your center of mass and center of pressure - moving the fins back moves the center of pressure back, away from the center of mass. Two, having more of the fin can over the nozzle section will be better for the fin can longevity. This is because that will actually be the coldest part of the case due to the sheer amount of material/thermal mass - being higher up risks melting my epoxy. 
+
+<img width="1234" height="907" alt="image" src="https://github.com/user-attachments/assets/ccc1d4d5-387c-4149-ae6d-e05db5a679ee" />
+
+<img width="1001" height="960" alt="image" src="https://github.com/user-attachments/assets/23f2255d-4836-483b-ae5c-f195f7b86564" />
+
+Man, she's pretty. This gives us a full-up cad that looks something like... this:
+
+<img width="2097" height="381" alt="image" src="https://github.com/user-attachments/assets/7d446061-dbbe-4ac7-8445-4cf11e9e283e" />
+
+<img width="2064" height="366" alt="image" src="https://github.com/user-attachments/assets/64178072-afcc-4b0d-9497-2dc8cd95b254" />
+
+I love it so much. I am proud of it for sure.
+
+So, what's left? 
+I need to make:
+- The nose cone AV bay, for actual flight control avionics
+- Finalize chute cannon design
+- CAD Parachute placeholders to verify packing
+- Specific motor specifications
+- Add ALL the screws and pins
+- General logistics
+
+
+Really, not much at all. I can hopefully get to ordering soon. I am so excited. 
+
+
 # 5/14/2026 4pm - One More PCB Entry
 _Time Spent: 5.5h_
 
