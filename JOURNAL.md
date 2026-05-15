@@ -1,4 +1,4 @@
-<img width="1666" height="1036" alt="image" src="https://github.com/user-attachments/assets/ceba9d2d-96c8-46be-92ce-7fcf93d93594" /># 5/14/2026 4pm - One More PCB Entry
+# 5/14/2026 4pm - One More PCB Entry
 _Time Spent: 5.5h_
 
 Howdy howdy. I was told that I can save money by paneling the boards. This means combining the three boards that don't have specific stack ups into one like single "board". The camera board needs to stay independent because it has a specific stack up for radio stuff.
