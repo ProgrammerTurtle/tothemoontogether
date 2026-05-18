@@ -1,3 +1,86 @@
+# 5/17/2026 6pm - Done? AV Bay + Last Touches??
+_Time Spent: 5h_
+
+I think I am done with the design... somehow...
+Pretty scary thought if I am being honest here. That means I just need to do BOM and logistics for submitting. 
+
+Anywho, what did I do? 
+I did:
+- AV Bay
+- Screws + Pins and General Hardware
+- Finalize Motor
+- Finalize Sim
+
+Starting with the AV Bay, I decided I will be flying a Featherweight Blue Jay and a Metrum ITX. The blue jay is an ultra compact flight computer from Featherweight Altimeters which is perfect for space efficiency. Metrum ITX is something special - it's a full computer and gps tracker with live telemetry, called the Telemetrum, but scaled down to the size of the blue jay. It is witchcraft and I am excited. 
+
+I am also using a tracker called Reperix and a tracker called the Elvin Beacon. Reperix is an ultra compact GPS tracker from Silicdyne while the elvin beacon is a radio tracker designed by a very cool guy named Elvin. 
+
+Each tracker and each computer gets a 1s 200mah lipo battery. Is that overkill? Yes. Do I care? No. 
+I will also likely be getting a magnetic power switch from Featherweight, but that is not modeled due to the inconsequential size/mounting and me not knowing where it will go once everything is wired. It will just be VHB taped in place though so its ok. 
+
+<img width="628" height="975" alt="image" src="https://github.com/user-attachments/assets/7e9a2902-c2d9-4b17-9fb0-26a965e675de" />
+
+This is the AV assembly. 
+
+<img width="580" height="1090" alt="image" src="https://github.com/user-attachments/assets/573d2879-e35d-41ac-810d-6508101888f3" />
+
+<img width="600" height="1138" alt="image" src="https://github.com/user-attachments/assets/c7d4d2da-9871-4156-9947-ca6985b99b88" />
+
+It mounts to the same bulkhead that the chute cannon mounts to, using the same screw holes. This then bolts in a 6mm thick fiberglass panel that makes up the AV sled. This is what all the electronics mount to. All the non electronics mounting is 3-48 socket head hardware. Nice and simple. 
+
+<img width="837" height="756" alt="image" src="https://github.com/user-attachments/assets/4dbb7f70-0d65-4313-a82b-a2ffa7c5bdb7" />
+
+I literally just extruded the top of the bulkhead and added mounting tabs for the panel. 
+
+<img width="1298" height="981" alt="image" src="https://github.com/user-attachments/assets/bf35bdce-9d9d-4965-a6d6-bf784df2a667" />
+
+There is something special in the base: The piezo! This is going to be potted (epoxied) into place and then clamped down tight by the screws. Since this is effectively the structural mating point of the whole head end assembly, it is hopefully a good spot to resonate. 
+
+<img width="500" height="794" alt="image" src="https://github.com/user-attachments/assets/f71bfcab-4465-4682-938e-1962abc312fd" />
+
+I also threw together a quick frustrum up top for the nose cone tip. This is what hold the nose cone tip into the rocket - it is just a threaded joint. The bore down the middle is for the thermistor. 
+
+<img width="449" height="909" alt="image" src="https://github.com/user-attachments/assets/fe13d250-35e3-40db-9f41-45a3f240052b" />
+
+You may notice a hole on the bottom face - this is a 2-56 screw hole for attaching the charge measurement coax lead. It will just be a simple crimped terminal bolted on. 
+
+With one last double check of all the head end screws, we get left with this gorgeous cross section: 
+
+<img width="2127" height="499" alt="image" src="https://github.com/user-attachments/assets/11be4205-cdca-4dcb-9fbd-1ca147892c53" />
+
+All that was left was motor and screw stuff. For motor stuff, I talked a lot with my propellant buddy and decided on an N3250. N being the motor class, 3250 being the average thrust in newtons. This really only affects the cad by having an 0.9" nozzle bore - which I adjusted the cad to show.
+
+Throwing that motor into a sim gives us: 
+
+<img width="2481" height="567" alt="image" src="https://github.com/user-attachments/assets/08ece022-0cfb-4f03-bdac-e609fe639e70" />
+
+<img width="936" height="76" alt="image" src="https://github.com/user-attachments/assets/19e8b597-ef01-4d53-9c8e-d5c76cbd9531" />
+
+Pretty solid final performance! Mach 3 and 62k feet. Glorious! 
+
+For screws I just had to add: 
+
+<img width="962" height="567" alt="image" src="https://github.com/user-attachments/assets/66cba24d-d55b-4169-bac9-fd0624586ec8" />
+
+1/4" dowel pins in the forward closure 
+
+<img width="1198" height="969" alt="image" src="https://github.com/user-attachments/assets/de76a779-e189-4032-9b8d-f2c7d17b98b9" />
+
+And 1/4-20 set screws in the aft closure.
+
+That's it! That's a rocket! 
+Godspeed!
+
+<img width="1790" height="861" alt="image" src="https://github.com/user-attachments/assets/9085246f-fd67-4450-b921-0d1ec2296aba" />
+
+<img width="2049" height="357" alt="image" src="https://github.com/user-attachments/assets/ee92526b-9a59-4613-ae5e-71f60a6a7994" />
+
+
+Now, I just need to make the BOM and some logistics stuff such as making the repo look nice and taking renders. Oh, and maybe designing part molds? But I may do that post-grant submission since they are just printed by me. 
+
+Not gonna lie, I am terrified of making this BOM. 
+Time to get to work gang. 
+
 # 5/14/2026 11pm - Finally, A Cad Entry - Fins and Full Up Model
 _Time Spent: 6h_
 
