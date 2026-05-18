@@ -1,3 +1,74 @@
+# 5/18/2026 2pm - I Forgot Drawings and Production Files
+_Time Spent: 4h_
+
+As the title says, I forgot drawings and production files. 
+Since so many of these parts have threads, I need drawings to call those out. I also need to highlight critical dimensions. 
+Initially I was getting all of these parts made by JLCCNC. But, they just increased all of their prices. So, based on a silly offer from a machinist friend of mine, I will likely be getting all my parts made by them. Or at least all of the ones that they can handle. 
+Moving on. 
+
+I have 17 custom machined parts in this rocket. Well, 17 individual designs, one of them has a quantity of 4. So 17 designs, 20 parts. 
+Almost all of them have threads and thus need a drawing. Some of them don't have threads, but still need drawings for critical dimensions. Such as the graphite and phenolic parts, which are being manufactured by a different friend. 
+
+<img width="1483" height="1142" alt="image" src="https://github.com/user-attachments/assets/4028dd55-1584-44ba-a29b-ed2c7eaa8f9c" />
+
+<img width="838" height="398" alt="image" src="https://github.com/user-attachments/assets/f93fa198-842c-433f-8387-1cec10d8d446" />
+
+Here they all are. I'm gonna go through every drawing but you can see them all here. I ended up with 11 drawings. Not awful. 
+
+<img width="2144" height="1245" alt="image" src="https://github.com/user-attachments/assets/594f3e4c-31ad-4927-9cf6-766a2b8c379c" />
+
+This is the nose cone radax. It bonds into the base of the nose cone and is how the nose cone attaches, as well as the avionics and recovery. Here I am just calling out threads.
+
+<img width="1629" height="1063" alt="image" src="https://github.com/user-attachments/assets/c282365f-620a-4bfa-bb1e-9f88865cfb93" />
+
+This is the nose tip. It is the very tippity top of the rocket. Here I am just calling out threads and the overall conical profile (so angle, diameters, and length). 
+
+<img width="2037" height="1199" alt="image" src="https://github.com/user-attachments/assets/939326d6-8a8f-4e86-81ec-e570a168e12e" />
+
+This is the frustrum. It attaches the nose tip to the nose cone and the charge measurement header to the nose tip. Here I am calling out threads and overall important dimensions of the profile.
+
+<img width="1339" height="909" alt="image" src="https://github.com/user-attachments/assets/b5472e41-5900-4c51-8760-51f3e1965a30" />
+
+This is the forward closure. It seals the top of the rocket motor and has an attachment point for a recovery anchor. Here I am calling out the threads for that recovery anchor point and the dimensions of the O-Ring grooves. 
+
+<img width="1945" height="1205" alt="image" src="https://github.com/user-attachments/assets/6fb65a05-e8d4-438c-90a1-7a963964c2a8" />
+
+This is the female conical coupler. It couples the head end unit to the rest of the rocket body and is mounted to the top of the rocket motor via a radax joint. Here I am calling out critical dimensions for the coupler + radax joint and the threads. 
+
+<img width="1944" height="1205" alt="image" src="https://github.com/user-attachments/assets/7c2233f9-ffc0-4837-9b38-9bdfb341141a" />
+
+This is the nozzle carrier for the motor. It holds the phenolic and graphite sections of the motor nozzle and facilitates a seal with the casing and liner via oring grooves. Here I am calling out critical dimensions of the overall profile such as tapers and diameters, plus the oring grooves. 
+
+<img width="1811" height="1208" alt="image" src="https://github.com/user-attachments/assets/5ebad463-d9f3-4bdc-a23f-18e884569afa" />
+
+This is the avionics sled mount. It attaches the fiberglass avionics sled to the rest of the rocket body. Here I am just calling out the 3 threads for the avionics sled. 
+
+<img width="2011" height="1234" alt="image" src="https://github.com/user-attachments/assets/ca8cafde-34ed-4d33-8d7c-7988b350e110" />
+
+This is the avionics/recovery bulkhead. It is the "centerpoint" of the rocket and attaches the recovery, avionics, and overall headend structure together. Here I am just calling out threads. 
+
+<img width="1968" height="1209" alt="image" src="https://github.com/user-attachments/assets/26dac990-107e-47bc-81a1-ba1485a47079" />
+
+This is the camera module main structure. It acts as heatsinking for the camera board and holds batteries + mounting for the instrumentation setup. Here I am calling out threads to the best of my abilities - it is a really wonky part. 
+
+That's it for all the drawings of the aluminum parts! The last two drawings are graphite and phenolic for the motor. 
+
+<img width="2006" height="1166" alt="image" src="https://github.com/user-attachments/assets/2195dc46-fbf3-4fe4-9db3-2ea1e1539f28" />
+
+This is the graphite throat insert for the nozzle assembly. It resists erosion at temp to allow for more consistent motor performance. It is in imperial, unlike the other drawings, which are metric. This is because of who is producing the parts. Here I am calling out all dimensions as I believe they machine manually. So following a drawing is easiest for them. 
+
+<img width="1953" height="1168" alt="image" src="https://github.com/user-attachments/assets/e6ce5377-44d2-4d3f-aa7c-29bbab1c0c79" />
+
+This is the nozzle phenolic insert. It erodes/ablates in a consistent known manner and is a very efficient insulator. It holds the graphite throat and is inserted into the aluminum nozzle carrier. Here I call out all dimensions for the same reasons as above, in imperial. 
+
+That's all the drawings! It took forever to get them done, especially since my wifi was struggling. I had a spreadsheet open the whole time for keeping track of what I was doing. 
+
+<img width="1094" height="665" alt="image" src="https://github.com/user-attachments/assets/0fa912fb-799a-4cb1-a232-17c7278e253c" />
+
+You can see that here. With 17 parts, you can't do it mentally anymore. Yay for spreadsheets. 
+
+Not every part needed a drawing as not every part has critical dimensions or threads that need called out besides as simple +- 0.1mm of CAD. Since they are using CNC machining they will be working with the cad so it is ok. There were not many other changes made to the other parts - the retaining rings had the bolt or pin holes removed so I can match drill them physically so they align perfectly with the case - that is the only other change. Nice and simple, get 'er done. I can now continue on with BOM making. 
+
 # 5/17/2026 6pm - Done? AV Bay + Last Touches??
 _Time Spent: 5h_
 
