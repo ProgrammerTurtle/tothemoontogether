@@ -16,7 +16,7 @@ The payload features a three-board distributed instrumentation avionics stack us
 
 **Experiment 1** is a Geiger counter: An SBM 21 geiger tube resides at the bottom of the payload for monitoring cosmis ray flux. At 62kft, the rocket should be nearing the Regener-Pfotzer maximum point of cosmic flux.
 
-**Experiment 2** is atmospheric charge measurement: By referencing between the nose tip and rocket body, across the insulating fiberglass, we can hopefully monitor atmospheric gathered static charge during flight.
+**Experiment 2** is atmospheric charge measurement: By referencing between the nose tip and rocket body, across the insulating fiberglass, atmospheric gathered static charge can theoretically be monitored during flight.
 
 **Experiment 3** is an attempt to measure air density, and thus altitude, through structure resonance: By utilizing a piezo transducer embedded in the airframe, sine sweeps can be ran on the head end structure during descent. By monitoring resonance response, air density can hopefully be determined. From air density, altitude can be derived. 
 
