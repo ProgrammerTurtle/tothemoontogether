@@ -1,3 +1,32 @@
+# 5/18/2026 8pm - Partial BOM, renders, make a nice readme.
+_Time Spent: 3h_
+
+Alright, heres the logistics stuff I was talking about. Basically everything I need to do for grant submission and ordering - the final steps before building. 
+First, I wrote up a partial BOM. This thing got expensive so quick - I don't think hackclub will be paying for propellant anymore. Which is fine, that was kinda a maybe already and was going to be tedious af. I can get a job before launch. 
+
+<img width="1468" height="939" alt="image" src="https://github.com/user-attachments/assets/8d24240d-1e48-4912-81bd-ab7cc7c126fa" />
+
+See. Man, is it spendy. All I have left are some little o rings and other doodads I need to hear back on my prop friend on, plus anything I may have forgotten already. I seperated it out into section and colored it and everything, its so nice. I am trying to get two commercial flight computers for this - we will see how that goes. If they complain I can show how its significantly cheaper than any other equivelants and we will see what happens. I think the point of burnout is that its fine though?
+
+Anywho, next was renders. I do all my renders with the native fusion tools - this time I used an actual environment though instead of my usual grey background. It turned out pretty cool and helps a lot with depth!
+
+<img width="1468" height="939" alt="image" src="https://github.com/user-attachments/assets/bdfb979c-354d-48f6-90c0-3e8e8ac41b96" />
+
+<img width="4000" height="1162" alt="image" src="https://github.com/user-attachments/assets/7865d417-1a7b-4c05-95bb-effeb95265c9" />
+
+There are no background versions of the exact same renders present in my README. Speaking of, I made that! I typed up some nonsense to make it sound cool, copy and pasted a lot from my OSHWLabs and burnout pitch, etc. until I was relatively happy with it. It does feel a little empty but that just be how it be sometimes. Maybe I could yap more about the PCBs? I really don't want to tho. Here's what that looks like: 
+
+<img width="1123" height="1122" alt="image" src="https://github.com/user-attachments/assets/654b1137-e935-458b-91d8-ec25f737dafa" />
+
+<img width="1095" height="1191" alt="image" src="https://github.com/user-attachments/assets/531d3a9c-4866-4d22-bf89-57d95188972f" />
+
+<img width="979" height="1278" alt="image" src="https://github.com/user-attachments/assets/3a50bbe5-03d3-49e0-9495-86b9de875df9" />
+
+Ain't it nice! I kinda have a consistent format between all my readmes and it seems to work well. If it ain't broken, why fix it? 
+
+All that's left now is final logisitics and submitting. Yippee!!!
+
+
 # 5/18/2026 2pm - I Forgot Drawings and Production Files
 _Time Spent: 4h_
 
