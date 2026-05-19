@@ -10,7 +10,7 @@ See. Man, is it spendy. All I have left are some little o rings and other doodad
 
 Anywho, next was renders. I do all my renders with the native fusion tools - this time I used an actual environment though instead of my usual grey background. It turned out pretty cool and helps a lot with depth!
 
-<img width="1468" height="939" alt="image" src="https://github.com/user-attachments/assets/bdfb979c-354d-48f6-90c0-3e8e8ac41b96" />
+<img width="4000" height="2174" alt="image" src="https://github.com/user-attachments/assets/2f296ddb-178a-4c6a-9243-bd9d5dbe4522" />
 
 <img width="4000" height="1162" alt="image" src="https://github.com/user-attachments/assets/7865d417-1a7b-4c05-95bb-effeb95265c9" />
 
