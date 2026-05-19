@@ -6,6 +6,8 @@
 
 To The Moon Together, or TTMT, is a 6 foot tall, 3” diameter, N-Class sub minimum diameter amateur sounding rocket - meaning a rocket carrying scientific payloads. N-Class being the motor class, and sub minimum diameter meaning that the motor casing is the main structure of the rocket - no additional body tube around it. This allows for very high performance - aiming for mach 3 and an altitude of 62 thousand feet (19KM).
 
+Current Planned Launch: BALLS 34 in the Black Rock Desert, September 2026. 
+
 ## Payload
 
 The payload features a three-board distributed instrumentation avionics stack using a CAN-FD bus — each board carries its own STM32G0B1CCU6 MCU, enabling redundant cross-validation and independent experiment processing
