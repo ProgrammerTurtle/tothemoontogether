@@ -33,13 +33,14 @@ McMaster-Carr Shipping and Tax,1,$30.00,https://www.mcmaster.com,Shipping and Ta
 "1/4-20 Set Screws, Flat Tip,3/8",25,$7.50,https://www.mcmaster.com/94355A535/,Aft Motor Assembly
 "6-32 Button Head Hex Screw, 5/16""",16,$5.00,https://www.mcmaster.com/92949A145/,Radax Assemblies
 MISCELLANEOUS,,,,
-915mhz LORA Antenna ,4,$6.00,https://www.aliexpress.us/item/3256805050972049.html?,Camera Board Antennas
+Partall Mold Release Wax,1,$17.00,https://a.co/d/0fLlNBUW,Mold Release for Fiberglass/CF part molds.
+915mhz LORA Antenna ,4,$6.00,https://www.aliexpress.us/item/3256805050972049.html?,Payload Board Antennas
 500C Thermistor `,1,$10.00,https://www.aliexpress.us/item/2255800405055939.html? ,Nose Tip Temperature Measurements
 JLCCNC Misc. Cost for Custom PCBS And CNC Parts,1,$360.00,"jlccnc.com, fedex.com ","OSHWLAB Stars only covers 80% of project cost, so there is a small cost applicable. Shipping through FedEx aswell."
 20mm Piezo Transducer,1,$2.00,https://www.aliexpress.us/item/3256812072131171.html?,Payload Experiment - Resonant Response
 SBM-21 Geiger Tube,1,$36.00,https://www.ebay.com/itm/388693213334?,Payload Experiment - Radiation
 "MMCX RG316 Coax Cable, 10CM ",1,$3.00,https://a.aliexpress.com/_mt1c4Fz,Payload Experiment - Atmospheric Charge
-"MMCX Female to SMA cable , 30cm",1,$3.00,https://a.aliexpress.com/_mL6sZkL,
+"MMCX Female to SMA cable , 30cm",1,$3.00,https://a.aliexpress.com/_mL6sZkL,Payload Experiment - Atmospheric Charge
 MMCX-KWE Female Right Angle Board Connector,1,$3.00,https://www.aliexpress.us/item/3256807429972438.html?,Payload Experiment - Atmospheric Charge
 ,,,,
-GRAND TOTAL,,"$1,643.50",,
+GRAND TOTAL,,"$1,660.50",,
