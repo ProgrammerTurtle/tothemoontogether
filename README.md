@@ -22,6 +22,8 @@ The payload features a three-board distributed instrumentation avionics stack us
 
 To top it all off, there is a Runcam Split 4 v2 camera mounted in a custom shroud and heatsink unit to record footage of the entire flight. Provided the flight is completely nominal, footage of everything from launch to touchdown should be captured. 
 
+That's right, a total of 4 fully custom PCBs. 
+
 <img width="4000" height="1109" alt="fullupttmt2" src="https://github.com/user-attachments/assets/5716c9e4-c4a1-4eb9-a136-97bd35d1bd1f" />
 
 ---
