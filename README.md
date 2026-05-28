@@ -24,6 +24,10 @@ To top it all off, there is a Runcam Split 4 v2 camera mounted in a custom shrou
 
 <img width="4000" height="1109" alt="fullupttmt2" src="https://github.com/user-attachments/assets/5716c9e4-c4a1-4eb9-a136-97bd35d1bd1f" />
 
+---
+
+BOM is visible here: https://docs.google.com/spreadsheets/d/1I6cnVDX1UCcmCTm6yOHvnUr30Lxsm3f6hqrUW3u3K9U/edit?usp=sharing
+Or attached as a .CSV
 
 ## This project was made possible by:
 - Hackclub: Fallout
