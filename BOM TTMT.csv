@@ -1,0 +1,45 @@
+Item,Quantity,Cost,Source,Purpose
+STRUCTURE,,,,
+"3"" Light Fiberglass Sleeve, 20ft",1,$20.00,https://sollercompositesllc.com/product/natural-uncolored-3in-light-fiberglass-sleeves/,Nose cone and chute cannon layups
+Aeropoxy Quart Kit,1,$110.00,https://www.aircraftspruce.com/catalog/pnpages/01-42135.php?,"Nose Cone, Chute Cannon, and Fin Can layups"
+ELECTRONICS,,,,
+STLink USB Debugger ,1,$3.00,https://www.aliexpress.us/item/3256807639661526.html?,Debugging and Programming Boards
+Wio Tracker L1 Pro,1,$48.00,https://www.seeedstudio.com/Wio-Tracker-L1-Pro-p-6454.html,Base Station for Camera Board - Non-custom for Reliability Purposes
+LSM6DSO32TR Accelerometer,1,$12.00,https://www.aliexpress.us/item/3256811581419858.html?,Accelerometer - Resonant Response Experiment
+MetrumITX Board + Ground Station,1,$240.00,Kev1n8088 on Slack,"Tracking, Flight Control"
+Elvin Beacon,1,N/A,Already Owned,Tracking
+Reperix Tracker,1,N/A,Already Owned,Tracking
+Runcam Split 4 V2 Camera,1,$90.00,https://www.aliexpress.us/item/3256808492130639.html?,Recording the awesome flight
+1s 300mah Lipo Battery,14,$22.00,https://www.aliexpress.us/item/3256811737992102.html?,Powering everything - one 1s4p pack + one 1s3p pack + 4 standalone cells + 4 redundant cells
+RECOVERY,,,,
+"Ematches, Firewire MJG",20,$20.00,https://www.csrocketry.com/recovery-supplies/ejection-supplies/firewire-electric-match.html,Recovery Charge Firing
+Custom Drogue and Main Parachute,2,$140.00,Parachute Friend,Recovering the rocket - landing
+"3/8"" Flat Kevlar",1,N/A,Already Owned,Attaching Parachutes to Rocket - Shock Cord
+MOTOR,,,,
+"3"" Aluminum Tube, 6 Feet",1,$145.00,https://www.dxengineering.com/parts/dxe-at1317,"Motor Casing Stock, will be cut and drilled to size by Me. "
+"Nozzle Assembly - Aluminum, Phenolic, Graphite",1,$230.00,Local Machinist,For Motor Nozzle
+HARDWARE,,,,
+McMaster-Carr Shipping and Tax,1,$30.00,https://www.mcmaster.com,Shipping and Tax
+"6-32 1/2"" Countersunk Torx Bolt",10,$13.00,https://www.mcmaster.com/90920A148/,Payload Mounting
+1/4-20 Eye Hanger Bolt,1,$18.00,https://www.mcmaster.com/90172A542/,Recovery Anchor
+"M2 Countersunk Torx Screws, M5",20,$8.00,https://www.mcmaster.com/90236A103/,Camera Mounting
+2-56 Low Profile Nut,10,$5.00,https://www.mcmaster.com/90730A003/,Payload Assembly
+"2-56 Threaded Rod, 1ft",1,$4.00,https://www.mcmaster.com/90034A460/,Payload Assembly
+"3mm Dowel Pins, 8mm Long",10,$10.00,https://www.mcmaster.com/93600A303/,Chute Cannon Attachment
+"3-48 Socket Head Screws, 1/2"" Long",10,$6.00,https://www.mcmaster.com/92185A098/,Internal Coupler Assembly
+"3-48 Socket Head Screws, 1/4"" Long",10,$5.00,https://www.mcmaster.com/92185A096/,Internal Coupler Assembly
+"2-56 Button Head Hex Screws, 5/16"" Long",20,$7.00,https://www.mcmaster.com/92949A078/,Payload Assemby
+"1/4' Diameter 5/16"" Long Steel Dowel Pins",20,$22.00,https://www.mcmaster.com/98381A535/,Forward Motor Assembly
+"1/4-20 Set Screws, Flat Tip,3/8",25,$7.50,https://www.mcmaster.com/94355A535/,Aft Motor Assembly
+"6-32 Button Head Hex Screw, 5/16""",16,$5.00,https://www.mcmaster.com/92949A145/,Radax Assemblies
+MISCELLANEOUS,,,,
+915mhz LORA Antenna ,4,$6.00,https://www.aliexpress.us/item/3256805050972049.html?,Camera Board Antennas
+500C Thermistor `,1,$10.00,https://www.aliexpress.us/item/2255800405055939.html? ,Nose Tip Temperature Measurements
+JLCCNC Misc. Cost for Custom PCBS And CNC Parts,1,$360.00,"jlccnc.com, fedex.com ","OSHWLAB Stars only covers 80% of project cost, so there is a small cost applicable. Shipping through FedEx aswell."
+20mm Piezo Transducer,1,$2.00,https://www.aliexpress.us/item/3256812072131171.html?,Payload Experiment - Resonant Response
+SBM-21 Geiger Tube,1,$36.00,https://www.ebay.com/itm/388693213334?,Payload Experiment - Radiation
+"MMCX RG316 Coax Cable, 10CM ",1,$3.00,https://a.aliexpress.com/_mt1c4Fz,Payload Experiment - Atmospheric Charge
+"MMCX Female to SMA cable , 30cm",1,$3.00,https://a.aliexpress.com/_mL6sZkL,
+MMCX-KWE Female Right Angle Board Connector,1,$3.00,https://www.aliexpress.us/item/3256807429972438.html?,Payload Experiment - Atmospheric Charge
+,,,,
+GRAND TOTAL,,"$1,643.50",,
