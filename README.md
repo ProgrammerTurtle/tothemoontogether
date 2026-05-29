@@ -42,6 +42,58 @@ I got an opportunity to do a really high performance build. I was making a camer
 This is that rocket. I have poured so many hours into this, I have almost failed classes over this, I have lost sleep over this. Making it into a scientific platform allows me to merge my passions in rocketry, physics, math, and general science in a way I haven't been able to before.
 So. Godspeed!
 
+## PCB Photos and Wiring Diagrams
+
+<details>
+  <summary>Click to Expand</summary>
+
+## PCB Photos
+
+### Camera PCB
+<img width="972" height="1026" alt="image" src="https://github.com/user-attachments/assets/9d37d268-56aa-4323-8874-b924455a63ca" />
+<img width="1193" height="845" alt="image" src="https://github.com/user-attachments/assets/4d7ff867-38f1-4340-8af1-584551ca58f1" />
+
+---
+
+### Instrumentation MCU PCB
+<img width="1801" height="1146" alt="image" src="https://github.com/user-attachments/assets/56f8a75b-bfc1-4b84-820d-9edc817a8928" />
+<img width="1193" height="845" alt="image" src="https://github.com/user-attachments/assets/e5acbf63-9e8c-47b4-8ec9-5ea7e930ffad" />
+
+---
+
+### Instrumentation Sensor PCB
+<img width="1829" height="1152" alt="image" src="https://github.com/user-attachments/assets/488fe1e1-af67-4d1f-9cd5-180fd22283b2" />
+<img width="1203" height="845" alt="image" src="https://github.com/user-attachments/assets/bcb7344a-6b0d-4afb-88b4-9d75e00ab206" />
+
+---
+
+### Instrumentation Geiger PCB
+<img width="1828" height="1130" alt="image" src="https://github.com/user-attachments/assets/c730b8a6-d4f6-414d-bdc4-9e6ebcd9fce6" />
+<img width="1190" height="845" alt="image" src="https://github.com/user-attachments/assets/2cb70bfa-4861-4e11-b04e-b4031bea31f4" />
+
+---
+
+### Instrumentation Flex PCB Cables
+<img width="1367" height="160" alt="image" src="https://github.com/user-attachments/assets/9938a771-9f42-45de-a66c-62b7bc32da57" />
+<img width="1344" height="134" alt="image" src="https://github.com/user-attachments/assets/a48ecd59-7cf8-40ee-950e-94aec5624500" />
+<img width="1190" height="845" alt="image" src="https://github.com/user-attachments/assets/629dd3bf-5004-400d-8e64-69fc2f338454" />
+
+---
+
+## Wiring Diagrams
+
+### Nosecone AV Bay Wiring
+<img width="1965" height="1206" alt="image" src="https://github.com/user-attachments/assets/e0df4aad-167d-439e-8e3a-6f23b1061339" />
+
+---
+
+### Payload Wiring
+<img width="1922" height="1196" alt="image" src="https://github.com/user-attachments/assets/e10b8dd7-01b4-40a1-b762-8b4cbe4e9593" />
+
+
+
+</details>
+
 ## This project was made possible by:
 - Hackclub: Fallout
 - Sunlu 
