@@ -8,6 +8,10 @@ To The Moon Together, or TTMT, is a 6 foot tall, 3” diameter, N-Class sub mini
 
 Current Planned Launch: BALLS 34 in the Black Rock Desert, September 2026. 
 
+## Flight Avionics
+
+TTMT will be flying a MetrumITX and Featherweight Blue Jay inside of the nose cone avionics bay. These two computers are responsible for parachute deployment and flight logging. 
+
 ## Payload
 
 The payload features a three-board distributed instrumentation avionics stack using a CAN-FD bus — each board carries its own STM32G0B1CCU6 MCU, enabling redundant cross-validation and independent experiment processing
