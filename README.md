@@ -35,6 +35,13 @@ That's right, a total of 4 fully custom PCBs.
 BOM is visible here: https://docs.google.com/spreadsheets/d/1I6cnVDX1UCcmCTm6yOHvnUr30Lxsm3f6hqrUW3u3K9U/edit?usp=sharing
 Or attached as a .CSV
 
+## Why am I building this?
+
+For a long time, I have had a passion for rocketry. I started off doing model rockets with my dad and it eventually grew into an obsession with high power rocketry. Whether it's developing machines for producing rocket parts (like a carbon fiber tube winder that I am using for my fin can tube) or actual rockets, I have spent hundreds, if not thousands of hours working on this hobby.
+I got an opportunity to do a really high performance build. I was making a camera module for a 3" rocket for a friend and realized - hey, why don't I make a rocket for this camera module too? After all, I have to get a minimum of 2 pcbs assembled per design.
+This is that rocket. I have poured so many hours into this, I have almost failed classes over this, I have lost sleep over this. Making it into a scientific platform allows me to merge my passions in rocketry, physics, math, and general science in a way I haven't been able to before.
+So. Godspeed!
+
 ## This project was made possible by:
 - Hackclub: Fallout
 - Sunlu 
