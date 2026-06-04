@@ -94,6 +94,10 @@ So. Godspeed!
 
 </details>
 
+## Zine Page
+
+<img width="1167" height="1613" alt="image" src="https://github.com/user-attachments/assets/3ee524a0-9295-424c-8c45-095ebdd78fc0" />
+
 ## This project was made possible by:
 - Hackclub: Fallout
 - Sunlu 
